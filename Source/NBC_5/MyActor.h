@@ -29,6 +29,8 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 public:
+	float distance(FVector2D first, FVector2D second);
 	void move();
 	int32_t step();
+	int32 createEvent();
 };
